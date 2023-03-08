@@ -3,7 +3,7 @@ from .models import Personas
 
 class PersonaSerializers(serializers.ModelSerializer):
     class Meta:
-        Model = Personas
+        model = Personas
 
         fields = ('__all__')
 
